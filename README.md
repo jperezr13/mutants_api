@@ -119,3 +119,11 @@ Nest is [MIT licensed](LICENSE).
 
 ![Screen Shot 2021-10-04 at 9 51 18 AM](https://user-images.githubusercontent.com/33725347/135873694-f54cab19-23c1-4feb-99c1-635aa275c503.png)
 
+## Stress Test API Jmeter
+
+![Test Jmeter (4)](https://user-images.githubusercontent.com/33725347/135889331-3461b20d-86e6-4738-a3e1-73de377d59b2.jpg)
+![Test Jmeter (1)](https://user-images.githubusercontent.com/33725347/135889436-fb0ee665-99f0-49e1-b5f9-0d0bfaa0e37a.jpg)
+![Test Jmeter (3)](https://user-images.githubusercontent.com/33725347/135889379-3c0faf5e-c5b5-4c3c-a7f1-fdfb2d672b70.jpg)
+![Test Jmeter (2)](https://user-images.githubusercontent.com/33725347/135889397-e3dd4ddb-394b-48ae-80ec-9503c941db79.jpg)
+![Test Jmeter](https://user-images.githubusercontent.com/33725347/135889462-c7393ba3-ab90-4556-8fbc-3cb2fe227745.jpg)
+
