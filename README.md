@@ -40,7 +40,7 @@ This array must be NxN. The strings only have these characters; A, T, C, G.
 
 ### /stats:
 
-Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas. 
+Return stats of all the DNAs that were validated by the API
 
 - **URL:** https://api-meli-mutants-jperez.herokuapp.com/stats
 
