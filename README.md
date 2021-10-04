@@ -46,7 +46,7 @@ Return stats of all the DNAs that were validated by the API
 
 - **Method:** GET
 
-- **Respuesta:** 
+- **Response:** 
 
   ```javascript
   {
@@ -55,6 +55,8 @@ Return stats of all the DNAs that were validated by the API
     "ratio": [number]
   }
   ```
+## Additional Information
+This app was deployed in Heroku, with a free MySql Database https://remotemysql.com/
 _________________________________________________
 
 ## Description
