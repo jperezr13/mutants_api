@@ -62,7 +62,21 @@ _________________________________________________
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
+For running this app, you must create .env file with the environment variables to connect to database
+> **E.g .env File:**
+  ```bash
+  TYPEORM_TYPE=mysql
+  TYPEORM_HOST=localhost
+  TYPEORM_DATABASE=db_name
+  TYPEORM_USERNAME=user
+  TYPEORM_PASSWORD=pass
+  TYPEORM_PORT=3306
+  TYPEORM_SYNCHRONIZE=true
+  TYPEORM_RUN_MIGRATIONS=true
+  TYPEORM_LOGGING=true
+  TYPEORM_KEEP_CONNECTION_ALIVE=true
+  TYPEORM_AUTO_LOAD_ENTITIES=true
+```
 ## Installation
 
 ```bash
