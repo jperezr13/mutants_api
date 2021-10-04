@@ -70,7 +70,7 @@ For running this app, you must create .env file with the environment variables t
   TYPEORM_DATABASE=db_name
   TYPEORM_USERNAME=user
   TYPEORM_PASSWORD=pass
-  TYPEORM_PORT=3306
+  TYPEORM_PORT='your database port'
   TYPEORM_SYNCHRONIZE=true
   TYPEORM_RUN_MIGRATIONS=true
   TYPEORM_LOGGING=true
