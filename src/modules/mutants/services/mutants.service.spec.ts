@@ -132,6 +132,22 @@ describe('MutantsService', () => {
       ]
       expect(await mutantsService.isMutant(dna)).toBe(false)
     })
+
+    it("should return false when size dna is less than four ", async () => {
+      const hash = "1234abcd"
+      var mutant = new Mutant(hash, false, 1)
+      jest.spyOn(encoder, 'sha1HashString').mockImplementation(() => hash)
+      jest.spyOn(mutantsRepository, 'getMutantByDna').mockImplementation(() => Promise.resolve(null))
+      const run = jest.spyOn(analizeDna, 'run')
+      jest.spyOn(mutantsRepository, 'createOrUpdateMutant').mockImplementation(() => Promise.resolve(mutant))
+      const dna = [
+        'ATG',
+        'CAG',
+        'TTA',
+      ]
+      expect(await mutantsService.isMutant(dna)).toBe(false)
+      expect(run).toBeCalledTimes(0)
+    })
   })
 
   it("should return stats when call getAll method", async () => {

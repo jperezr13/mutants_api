@@ -28,7 +28,7 @@ describe('Mutant Repository', () => {
         expect(repository).toBeDefined()
     })
 
-    it('Shold be call repository create ', () => {
+    it('Shold be call repository save ', () => {
         const mutantDto = new MutantDto("1234abcd", true, 1)
         const create = jest.spyOn(mockedRepo, 'save')
 
