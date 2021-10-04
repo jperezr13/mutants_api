@@ -1,14 +1,13 @@
 import { Test, TestingModule } from '@nestjs/testing'
-import { Repository } from 'typeorm';
+import { getRepositoryToken } from '@nestjs/typeorm';
+
 import { Mutant } from '../entities/mutant.entity';
 import { MutantsRepository } from './mutants.repository';
 import { MutantDto } from '../dto/mutant-dto';
-import { getRepositoryToken } from '@nestjs/typeorm';
 
 describe('Mutant Repository', () => {
     let repository: MutantsRepository
     const mockedRepo = {
-        // mock the repo `findOneOrFail`
         findOne: jest.fn((dna: string) => Promise.resolve(Mutant)),
         find: jest.fn(() => Promise.resolve({Mutant})),
         save: jest.fn((mutant: Mutant) => Promise.resolve(Mutant)),

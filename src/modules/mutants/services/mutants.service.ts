@@ -1,9 +1,11 @@
 import { Injectable } from '@nestjs/common';
+
 import { MutantsRepository } from '../repository/mutants.repository';
 import { StatsDto } from '../dto/stats-dto';
 import { MutantDto } from '../dto/mutant-dto';
 import { AnalizeDna } from '../../../domain/utils/analyzeDna/analyzeDna.utils';
 import { Encoder } from '../../../domain/utils/encoder/encoder';
+
 @Injectable()
 export class MutantsService {
     constructor(

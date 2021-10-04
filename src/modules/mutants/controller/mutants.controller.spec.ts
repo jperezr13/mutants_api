@@ -1,7 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
+import { HttpStatus } from '@nestjs/common';
+
 import { MutantsService } from '../services/mutants.service';
 import { MutantsController } from './mutants.controller';
-import { HttpStatus } from '@nestjs/common';
 import { statsMock } from '../../../../test/mocks/statsMock';
 import { StatsDto } from '../dto/stats-dto';
 

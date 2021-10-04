@@ -1,5 +1,6 @@
 import { Injectable, NestMiddleware, HttpStatus } from '@nestjs/common';
 import { NextFunction, Request, Response } from 'express';
+
 import { ValidateDna } from '../domain/utils/validateDna/validateDna.utils';
 
 @Injectable()

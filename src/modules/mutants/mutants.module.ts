@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+
 import { MutantsController } from './controller/mutants.controller';
 import { Mutant } from './entities/mutant.entity';
 import { MutantsService } from './services/mutants.service';
